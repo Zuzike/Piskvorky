@@ -9,7 +9,7 @@ html{
 }
 
 body{
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .uvod{
   width: 35rem;
@@ -28,7 +28,8 @@ img{
 h1{
   font-family: Lobster;
   font-weight:100;
-  font-size: 5rem;
+  font-size: 4rem;
+  margin: 2rem 0;
 }
 .uvod__text{
   padding: 0 1.5rem 1rem;

@@ -1,3 +1,27 @@
 * {
   box-sizing: border-box;
 }
+
+html{
+  background: linear-gradient(#615dad, #ffc8da);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+body{
+  width: 35.5rem;
+  margin: auto;
+  background-color: #283e50;
+  color: #ffffff;
+}
+h1{
+  font-family: Lobster;
+}
+
+.odkaz--pravidla{
+  background-color: #1fcca4;
+}
+
+.odkaz--hra{
+  background-color: #0197f6;
+}

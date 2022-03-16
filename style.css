@@ -9,19 +9,48 @@ html{
 }
 
 body{
-  width: 35.5rem;
+  padding-top: 5rem;
+}
+.uvod{
+  width: 35rem;
   margin: auto;
   background-color: #283e50;
   color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight:100;
+}
+img{
+  border-radius: 10px 10px 0 0;
 }
 h1{
   font-family: Lobster;
+  font-weight:100;
+  font-size: 5rem;
 }
-
+.uvod__text{
+  padding: 0 1.5rem 1rem;
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
 .odkaz--pravidla{
   background-color: #1fcca4;
+  padding: 1rem 0;
+  margin-bottom: 0.1rem;
+}
+.odkaz--pravidla:hover{
+  background-color: #1cbb96;
 }
 
 .odkaz--hra{
   background-color: #0197f6;
+  padding: 1rem 0;
 }
+.odkaz--hra:hover{
+background-color: #0090e9;
+}
+

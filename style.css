@@ -2,56 +2,60 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   background: linear-gradient(#615dad, #ffc8da);
   background-repeat: no-repeat;
   height: 100%;
 }
 
-body{
-  padding-top: 3rem;
+body {
+  padding: 3rem;
 }
-.uvod{
-  width: 35rem;
+.uvod {
+  width: 23rem;
   margin: auto;
   background-color: #283e50;
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border-radius: 10px;
-  font-size: 1.5rem;
   text-align: center;
-  font-weight:100;
+  line-height: 1.6;
 }
-img{
+img {
   border-radius: 10px 10px 0 0;
 }
-h1{
+h1 {
   font-family: Lobster;
-  font-weight:100;
-  font-size: 4rem;
-  margin: 2rem 0;
+  font-weight: 100;
+  font-size: 2.5rem;
 }
-.uvod__text{
-  padding: 0 1.5rem 1rem;
+.uvod__text {
+  padding: 0 1rem;
 }
-a{
+p {
+  margin-bottom: 1.5rem;
+}
+a {
   color: #ffffff;
   text-decoration: none;
 }
-.odkaz--pravidla{
+.uvod__odkazy {
+  display: flex;
+  flex-direction: column;
+}
+.odkaz--pravidla {
   background-color: #1fcca4;
   padding: 1rem 0;
   margin-bottom: 0.1rem;
 }
-.odkaz--pravidla:hover{
+.odkaz--pravidla:hover {
   background-color: #1cbb96;
 }
 
-.odkaz--hra{
+.odkaz--hra {
   background-color: #0197f6;
   padding: 1rem 0;
 }
-.odkaz--hra:hover{
-background-color: #0090e9;
+.odkaz--hra:hover {
+  background-color: #0090e9;
 }
-

@@ -29,11 +29,24 @@ h1 {
   font-weight: 100;
   font-size: 2.5rem;
 }
-.uvod__text {
+.nadpis{
+  padding-top: 2rem;
+}
+.uvod__text, .hra__text {
   padding: 0 1rem;
 }
 p {
   margin-bottom: 1.5rem;
+}
+li{
+  text-align: start;
+  padding-left: 0.5rem;
+}
+.ikona{
+  padding-left: 0.1rem;
+  position: relative;
+  top: 0.1rem;
+ 
 }
 a {
   color: #ffffff;
@@ -43,12 +56,12 @@ a {
   display: flex;
   flex-direction: column;
 }
-.odkaz--pravidla {
+.odkaz--pravidla,.odkaz--uvod {
   background-color: #1fcca4;
   padding: 1rem 0;
   margin-bottom: 0.1rem;
 }
-.odkaz--pravidla:hover {
+.odkaz--pravidla:hover, .odkaz--uvod:hover{
   background-color: #1cbb96;
 }
 

@@ -5,7 +5,7 @@
 html {
   background: linear-gradient(#615dad, #ffc8da);
   background-repeat: no-repeat;
-  height: 100%;
+  background-size: cover;
 }
 
 body {
@@ -19,34 +19,45 @@ body {
   font-family: 'Open Sans', sans-serif;
   border-radius: 10px;
   text-align: center;
-  line-height: 1.6;
-}
-img {
-  border-radius: 10px 10px 0 0;
-}
+  }
 h1 {
   font-family: Lobster;
   font-weight: 100;
   font-size: 2.5rem;
 }
-.nadpis{
-  padding-top: 2rem;
+.nadpis {
+  margin-top: 1rem;
 }
-.uvod__text, .hra__text {
+.uvod__text {
   padding: 0 1rem;
+}
+.hra__text{
+  padding: 1rem 2.5rem;
 }
 p {
   margin-bottom: 1.5rem;
+  line-height: 1.6;
 }
-li{
+li {
   text-align: start;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
-.ikona{
+.ikona {
   padding-left: 0.1rem;
   position: relative;
   top: 0.1rem;
- 
+  filter: invert(100%);
+}
+
+figure>img {
+  width: 100%;
+}
+main>img {
+  border-radius: 10px 10px 0 0;
+}
+figcaption{
+font-style: italic ;
+padding: 1rem 0;
 }
 a {
   color: #ffffff;
@@ -56,12 +67,14 @@ a {
   display: flex;
   flex-direction: column;
 }
-.odkaz--pravidla,.odkaz--uvod {
+.odkaz--pravidla,
+.odkaz--uvod {
   background-color: #1fcca4;
   padding: 1rem 0;
   margin-bottom: 0.1rem;
 }
-.odkaz--pravidla:hover, .odkaz--uvod:hover{
+.odkaz--pravidla:hover,
+.odkaz--uvod:hover {
   background-color: #1cbb96;
 }
 

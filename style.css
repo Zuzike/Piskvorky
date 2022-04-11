@@ -5,20 +5,24 @@
 body {
   background: linear-gradient(#615dad, #ffc8da);
   background-repeat: repeat-x;
-  /*background-size: cover;*/
   min-height: 100vh;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
 }
-
 .uvod {
   max-width: 23rem;
   margin: auto;
   background-color: #283e50;
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
   border-radius: 10px;
   text-align: center;
   margin-top: 3rem;
 }
+.hra {
+  /* max-width: 80vmin*/
+  padding: 0 5rem;
+  min-width: 340px;
+}
+
 h1 {
   font-family: Lobster;
   font-weight: 100;
@@ -68,21 +72,25 @@ a {
   flex-direction: column;
 }
 .odkaz--pravidla,
-.odkaz--uvod {
+.odkaz--uvod,
+.tlacitka__home {
   background-color: #1fcca4;
   padding: 1rem 0;
   margin-bottom: 0.1rem;
 }
 .odkaz--pravidla:hover,
-.odkaz--uvod:hover {
+.odkaz--uvod:hover,
+.tlacitka__home:hover {
   background-color: #1cbb96;
 }
 
-.odkaz--hra {
+.odkaz--hra,
+.tlacitka__refresh {
   background-color: #0197f6;
   padding: 1rem 0;
 }
-.odkaz--hra:hover {
+.odkaz--hra:hover,
+.tlacitka__refresh:hover {
   background-color: #0090e9;
 }
 
@@ -97,7 +105,8 @@ a {
   .uvod__odkazy {
     width: 100%;
   }
-  div {
+  .hra__vizual,
+  .hra__text {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -114,4 +123,13 @@ a {
   .uvod.pravidla {
     width: 54rem;
   }
+}
+
+.policka {
+  display: flex;
+  flex-wrap: wrap;
+}
+button {
+  width: 10%;
+  aspect-ratio: 1/1;
 }

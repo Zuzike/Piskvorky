@@ -17,16 +17,16 @@ body {
   text-align: center;
   margin-top: 3rem;
 }
-.hra {
-  /* max-width: 80vmin*/
-  padding: 0 5rem;
-  min-width: 340px;
-}
 
 h1 {
   font-family: Lobster;
   font-weight: 100;
   font-size: 2.5rem;
+}
+.hra h1 {
+  text-align: center;
+  margin-bottom: 0.8rem;
+  font-size: 3rem;
 }
 .nadpis {
   margin-top: 1rem;
@@ -45,7 +45,7 @@ li {
   text-align: start;
   padding-left: 1rem;
 }
-.ikona {
+.ikona__pravidla {
   padding-left: 0.1rem;
   position: relative;
   top: 0.1rem;
@@ -125,11 +125,55 @@ a {
   }
 }
 
+.hra {
+  margin: 0 2rem;
+  min-width: 200px;
+}
+
 .policka {
   display: flex;
   flex-wrap: wrap;
+  /*max-width: 80vmin*/
+  border: 0.5px solid black;
+  min-width: 200px;
 }
 button {
   width: 10%;
   aspect-ratio: 1/1;
+  opacity: 0.5;
+  border: 0.5px solid black;
+}
+button:hover {
+  opacity: 0.7;
+}
+
+.hrac {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  min-width: 200px;
+}
+.hrac__nav,
+.tlacitka {
+  display: flex;
+  align-items: center;
+}
+.hrac__nav > p {
+  margin: 0;
+  font-size: 1.3rem;
+}
+.tlacitka__home,
+.tlacitka__refresh {
+  padding: 0.5rem 0.5rem;
+  border-radius: 8px;
+}
+.tlacitka__home {
+  margin-right: 0.5rem;
+}
+
+.ikona__hra {
+  margin-left: 0.3rem;
+  filter: invert(100%);
+  width: 1.3em;
+  height: 1.3em;
 }

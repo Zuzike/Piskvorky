@@ -126,17 +126,18 @@ a {
 }
 
 .hra {
-  margin: 0 2rem;
+  margin: auto;
   min-width: 200px;
+  max-width: 80vmin
 }
 
 .policka {
   display: flex;
   flex-wrap: wrap;
-  /*max-width: 80vmin*/
   border: 0.5px solid black;
   min-width: 200px;
-}
+ }
+
 button {
   width: 10%;
   aspect-ratio: 1/1;

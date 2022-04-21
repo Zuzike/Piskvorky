@@ -147,6 +147,9 @@ button {
 }
 button:hover,:focus {
   opacity: 0.7;
+  border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: -1.5px -1.5px 0 0 rgb(255, 255, 255);
 }
 
 .hrac {
@@ -184,17 +187,16 @@ button:hover,:focus {
  background-repeat: no-repeat;
  background-position: center;
  background-size: 70%;
+ opacity: 1;
   }
-
- /*.board__field>img{
-  width: 2.8em;
-  height: 2.8em;
-  margin-top: 0.3rem;
- }*/
 
 .board__field--cross{
   background-image: url('./cross.svg');
   background-repeat: no-repeat;
   background-position: center;
  background-size: 70%;
-}
+ opacity: 1;
+ }
+
+ 
+

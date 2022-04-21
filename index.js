@@ -1,4 +1,4 @@
-//v js: nereagovať, ak je v políčku už symbol
+
 //pri klik sa mení styl políčka, ale po zídení sa vráti do pôvod. podoby
 
 /*const playerNav = document.querySelector('.hrac__nav');

@@ -179,3 +179,22 @@ button:hover,:focus {
   width: 1.3em;
   height: 1.3em;
 }
+.board__field--circle{
+ background-image: url('./circle.svg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 70%;
+  }
+
+ /*.board__field>img{
+  width: 2.8em;
+  height: 2.8em;
+  margin-top: 0.3rem;
+ }*/
+
+.board__field--cross{
+  background-image: url('./cross.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+ background-size: 70%;
+}

@@ -144,12 +144,17 @@ button {
   opacity: 0.5;
   border: 0.5px solid black;
   cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0%;
+ /* opacity: 1;*/
 }
-button:hover,:focus {
+button:hover,
+:focus {
   opacity: 0.7;
   border: 2px solid black;
-    border-radius: 5px;
-    box-shadow: -1.5px -1.5px 0 0 rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: -1.5px -1.5px 0 0 rgb(255, 255, 255);
 }
 
 .hrac {
@@ -182,21 +187,18 @@ button:hover,:focus {
   width: 1.3em;
   height: 1.3em;
 }
-.board__field--circle{
- background-image: url('./circle.svg');
- background-repeat: no-repeat;
- background-position: center;
- background-size: 70%;
- opacity: 1;
+.board__field--circle {
+  background-image: url('./circle.svg');
+  background-size: 70%;
+  transition: background-size 0.35s;
+  opacity: 1;
+}
+
+
+.board__field--cross {
+  background-image: url('./cross.svg');  
+  opacity: 1;
+  background-size: 70%;
+    transition: background-size 0.35s;
   }
-
-.board__field--cross{
-  background-image: url('./cross.svg');
-  background-repeat: no-repeat;
-  background-position: center;
- background-size: 70%;
- opacity: 1;
- }
-
- 
 

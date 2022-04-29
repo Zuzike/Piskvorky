@@ -147,7 +147,6 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 0%;
- /* opacity: 1;*/
 }
 button:hover,
 :focus {
@@ -194,11 +193,9 @@ button:hover,
   opacity: 1;
 }
 
-
 .board__field--cross {
-  background-image: url('./cross.svg');  
+  background-image: url('./cross.svg');
   opacity: 1;
   background-size: 70%;
-    transition: background-size 0.35s;
-  }
-
+  transition: background-size 0.35s;
+}
